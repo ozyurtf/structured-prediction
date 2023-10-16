@@ -567,20 +567,6 @@ Below, you'll need to implement this algorithm:
 
 
 ```python
-dp = torch.zeros(pm[0].shape)
-```
-
-
-```python
-for i in range(1, pm[0].shape[0]): 
-  for j in range(1, pm[0].shape[1]):
-    dp[i, j] = min(dp[i - 1][j], dp[i - 1][j - 1]) + pm[0][i][j]
-    
-dp[0][0] = pm[0][0][0]    
-```
-
-
-```python
 def find_path(pm):
     # inputs:
     #   pm - a tensor of shape LxT with energies
