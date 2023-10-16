@@ -107,7 +107,7 @@ plt.imshow(img)
 
 
     
-![png](output_4_2.png)
+![png](figures/output_4_2.png)
     
 
 
@@ -129,7 +129,7 @@ plt.show()
 
 
     
-![png](output_6_0.png)
+![png](figures/output_6_0.png)
     
 
 
@@ -152,7 +152,7 @@ plt.axis('off')
 
 
     
-![png](output_8_1.png)
+![png](figures/output_8_1.png)
     
 
 
@@ -231,7 +231,7 @@ plot_energies(alphabet_energies[0].detach())
 
 
     
-![png](output_13_1.png)
+![png](figures/output_13_1.png)
     
 
 
@@ -334,7 +334,7 @@ plot_energies(alphabet_energies_post_train[0].detach())
 
 
     
-![png](output_21_0.png)
+![png](figures/output_21_0.png)
     
 
 
@@ -471,7 +471,7 @@ plot_pm(pm[0].detach())
 
 
     
-![png](output_29_0.png)
+![png](figures/output_29_0.png)
     
 
 
@@ -528,7 +528,7 @@ print('Energy is', path_energy(pm[0], path).item())
 
 
     
-![png](output_35_1.png)
+![png](figures/output_35_1.png)
     
 
 
@@ -547,7 +547,7 @@ print('Energy is', path_energy(pm[0], bad_path_1).item())
 
 
     
-![png](output_37_1.png)
+![png](figures/output_37_1.png)
     
 
 
@@ -649,7 +649,7 @@ print('Free energy is', free_energy.item())
 
 
     
-![png](output_43_1.png)
+![png](figures/output_43_1.png)
     
 
 
@@ -671,7 +671,7 @@ plt.axis('off')
 
 
     
-![png](output_45_1.png)
+![png](figures/output_45_1.png)
     
 
 
@@ -775,7 +775,7 @@ print('Free energy is', free_energy.item())
 
 
     
-![png](output_50_1.png)
+![png](figures/output_50_1.png)
     
 
 
@@ -799,7 +799,7 @@ plt.axis('off')
 
 
     
-![png](output_52_1.png)
+![png](figures/output_52_1.png)
     
 
 
@@ -817,13 +817,13 @@ plot_energies(energies[0].detach().cpu())
 
 
     
-![png](output_55_0.png)
+![png](figures/output_55_0.png)
     
 
 
 
     
-![png](output_55_1.png)
+![png](figures/output_55_1.png)
     
 
 
