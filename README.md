@@ -91,22 +91,8 @@ class SimpleWordsDataset(torch.utils.data.IterableDataset):
 
 sds = SimpleWordsDataset(1, jitter=True, noise=False)
 img = next(iter(sds))[0]
-print(img.shape)
 plt.imshow(img)
-```
-
-    torch.Size([32, 18])
-
-
-
-
-
-    <matplotlib.image.AxesImage at 0x7fd4e26610a0>
-
-
-
-
-    
+``` 
 ![png](figures/output_4_2.png)
     
 
@@ -224,11 +210,6 @@ def plot_energies(ce):
     
 plot_energies(alphabet_energies[0].detach())
 ```
-
-    /var/folders/v4/yrd75qc17mg4cnlp5kqz6zcw0000gn/T/ipykernel_39542/2925183189.py:7: UserWarning: The use of `x.T` on tensors of dimension other than 2 to reverse their shape is deprecated and it will throw an error in a future release. Consider `x.mT` to transpose batches of matricesor `x.permute(*torch.arange(x.ndim - 1, -1, -1))` to reverse the dimensions of a tensor. (Triggered internally at  /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/TensorShape.cpp:2985.)
-      im = ax.imshow(ce.cpu().T)
-
-
 
     
 ![png](figures/output_13_1.png)
